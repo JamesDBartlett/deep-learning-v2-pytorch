@@ -1,7 +1,11 @@
+#############################################
+## WRITTEN FOR, AND TESTED ON PYTHON 3.8.1 ##
+#############################################
+
 import numpy as np
 
 
-def sigmoid(x):  # SIGMOID FUNCTION
+def sigmoid(x):  # DEFINE SIGMOID FUNCTION
     """Return sigmoid for x"""
     return 1 / (1 + np.exp(-x))
 
